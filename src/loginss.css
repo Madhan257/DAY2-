@@ -1,0 +1,80 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/aerial-view-business-team_53876-124515.jpg?w=1380&t=st=1688812748~exp=1688813348~hmac=9207f21e8908bb27f11462e57338cfd9081bef3a8215488fedcada219748889b");
+    display: inline-flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-bottom: 30px;
+}
+.app {
+    padding-top: 150px;
+    padding-left: 1000px;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+  }
+
+  input[type="submit"]:hover {
+    background: #90e2c6;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    width: 300px;
+      height: 400px;
+      border-radius: 10px;
+    opacity: 0.7;
+    background-color: rgba(210, 210, 210, 0.771);
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    padding-left: 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+    width: 250px;
+    height: 80px;
+
+  }
+  .btna
+  {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #dee9e9;
+    border: 1px solid #040404;
+    color: #0b0a0a;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
